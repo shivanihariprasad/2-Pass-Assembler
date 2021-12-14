@@ -1,2 +1,7 @@
-# Two-Pass-Macroprocessor-for-SIC-XE
- IMPLEMENTATION OF TWO PASS ASSEMBLER FOR SIC/XE
+# Two-Pass-Assembler-for-SIC-XE
+Implementation of Two pass Assembler FOR SIC/XE
+
+Assemblers are the simplest of a class of systems programs called translators. A translator is simply a program, which translates from one (computer) language to another (computer) language. In the case of an assembler, the translation is from assembly language to object language (which is input to a loader). Notice that an assembler, like all translators, adds nothing to the program which it translates, but merely changes the program from one form to another. The use of a translator allows a program to be written in a form that is convenient for the programmer, and then the program is translated into a form convenient for the computer.
+Assembly language is almost the same as machine language. The major difference is that assembly language allows the declaration and use of symbols to stand for the numeric values to be used for opcodes, fields, and addresses. An assembler inputs a program written in assembly language, and translates all of the symbols in the input into numeric values, creating an output object module, suitable for loading. The object module is output to a storage device, which allows the assembled program to be read back into the computer by the loader.
+
+This project presents the implementation of a two-pass assembler using lex and yacc programming languages. The two pass assembler implemented will only assemble simple SIC/XE programs for all instruction formats.
